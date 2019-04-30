@@ -1,1 +1,8 @@
-/node_modules
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Project generate
+dist
