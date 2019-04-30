@@ -140,14 +140,12 @@ export default {
     updateTitle (note) {
       note.editable = true
       note.date = new Date(Date.now()).toLocaleString()
-      //note.title = 'ooooook'
       //console.log(note)
     },
     notUpdateTitle (note) {
       note.editable = true
       note.title = note.titleOrigin
       note.descr = note.descrOrigin
-      //note.title = 'ooooook'
       //console.log(note)
     }
   },
